@@ -1,0 +1,216 @@
+9.2s 1 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+9.2s 2 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+9.2s 3 0.00s - to python to disable frozen modules.
+9.2s 4 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+10.3s 5 0.00s - Debugger warning: It seems that frozen modules are being used, which may
+10.3s 6 0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+10.3s 7 0.00s - to python to disable frozen modules.
+10.3s 8 0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+18.3s 9 Autism-Adult-Data.csv  breastcancer.csv  taiwanesebankruptcyprediction.csv
+18.3s 10 biodeg.csv	       student_data.csv
+18.5s 11 Loading Taiwan Bankruptcy...
+18.5s 12 Loading Breast Cancer...
+18.6s 13 Loading Biodegradation...
+18.6s 14 Loading Autism Screening...
+18.6s 15 Loading Student Data...
+18.6s 16 - Taiwan_Bankruptcy: samples=500, features=95, classes=2
+18.6s 17 - Breast_Cancer: samples=500, features=30, classes=2
+18.6s 18 - Biodegradation: samples=500, features=41, classes=2
+18.6s 19 - Autism_Screening: samples=500, features=91, classes=2
+18.6s 20 - Student_Data: samples=500, features=36, classes=2
+18.6s 21 Algorithms:
+18.6s 22 - Decision Tree (C4.5)
+18.6s 23 - Decision Tree (CART)
+18.6s 24 - SVM (Linear)
+18.6s 25 - SVM (RBF Kernel)
+18.6s 26 - Naive Bayes
+18.6s 27 - Logistic Regression
+18.6s 28 - 3-Layer NN
+18.6s 29 - 3-Layer NN (L2)
+18.7s 30 
+18.7s 31 ============================================================
+18.7s 32 DATASET: Taiwan_Bankruptcy
+18.7s 33 ============================================================
+18.7s 34 - Decision Tree (C4.5)
+22.4s 35 Acc 0.9488±0.0065 | F1 0.9474±0.0060 | AUC 0.7691±0.0294
+22.4s 36 - Decision Tree (CART)
+26.1s 37 Acc 0.9442±0.0067 | F1 0.9430±0.0068 | AUC 0.7588±0.0310
+26.1s 38 - SVM (Linear)
+29.9s 39 Acc 0.9424±0.0055 | F1 0.9404±0.0053 | AUC 0.8449±0.0103
+29.9s 40 - SVM (RBF Kernel)
+34.3s 41 Acc 0.9370±0.0018 | F1 0.9093±0.0024 | AUC 0.9081±0.0057
+34.3s 42 - Naive Bayes
+36.4s 43 Acc 0.8480±0.0403 | F1 0.8354±0.0370 | AUC 0.5791±0.0144
+36.4s 44 - Logistic Regression
+73.2s 45 Acc 0.9498±0.0038 | F1 0.9451±0.0040 | AUC 0.8641±0.0101
+73.2s 46 - 3-Layer NN
+128.4s 47 Acc 0.9546±0.0036 | F1 0.9461±0.0039 | AUC 0.8463±0.0135
+128.4s 48 - 3-Layer NN (L2)
+182.8s 49 Acc 0.9550±0.0038 | F1 0.9465±0.0042 | AUC 0.8475±0.0134
+182.8s 50 
+182.8s 51 ============================================================
+182.8s 52 DATASET: Breast_Cancer
+182.8s 53 ============================================================
+182.8s 54 - Decision Tree (C4.5)
+184.8s 55 Acc 0.9246±0.0064 | F1 0.9246±0.0064 | AUC 0.9221±0.0067
+184.8s 56 - Decision Tree (CART)
+186.9s 57 Acc 0.9252±0.0109 | F1 0.9250±0.0110 | AUC 0.9212±0.0117
+186.9s 58 - SVM (Linear)
+189.3s 59 Acc 0.9756±0.0012 | F1 0.9755±0.0012 | AUC 0.9941±0.0014
+189.3s 60 - SVM (RBF Kernel)
+192.3s 61 Acc 0.9748±0.0020 | F1 0.9747±0.0021 | AUC 0.9945±0.0009
+192.3s 62 - Naive Bayes
+193.6s 63 Acc 0.9368±0.0022 | F1 0.9363±0.0022 | AUC 0.9869±0.0010
+193.6s 64 - Logistic Regression
+209.9s 65 Acc 0.9796±0.0032 | F1 0.9795±0.0033 | AUC 0.9946±0.0009
+209.9s 66 - 3-Layer NN
+272.9s 67 Acc 0.9760±0.0038 | F1 0.9759±0.0038 | AUC 0.9934±0.0018
+272.9s 68 - 3-Layer NN (L2)
+336.2s 69 Acc 0.9754±0.0039 | F1 0.9753±0.0039 | AUC 0.9934±0.0019
+336.2s 70 
+336.2s 71 ============================================================
+336.2s 72 DATASET: Biodegradation
+336.2s 73 ============================================================
+336.2s 74 - Decision Tree (C4.5)
+338.4s 75 Acc 0.8276±0.0070 | F1 0.8266±0.0070 | AUC 0.8232±0.0071
+338.4s 76 - Decision Tree (CART)
+340.5s 77 Acc 0.8252±0.0135 | F1 0.8246±0.0136 | AUC 0.8216±0.0142
+340.5s 78 - SVM (Linear)
+346.0s 79 Acc 0.8820±0.0073 | F1 0.8815±0.0073 | AUC 0.9330±0.0045
+346.0s 80 - SVM (RBF Kernel)
+350.9s 81 Acc 0.8798±0.0027 | F1 0.8796±0.0028 | AUC 0.9464±0.0029
+350.9s 82 - Naive Bayes
+352.5s 83 Acc 0.8184±0.0039 | F1 0.8113±0.0038 | AUC 0.9090±0.0017
+352.5s 84 - Logistic Regression
+381.6s 85 Acc 0.8808±0.0024 | F1 0.8801±0.0025 | AUC 0.9362±0.0035
+381.6s 86 - 3-Layer NN
+507.2s 87 Acc 0.8942±0.0073 | F1 0.8941±0.0073 | AUC 0.9448±0.0048
+507.2s 88 - 3-Layer NN (L2)
+626.1s 89 Acc 0.8936±0.0070 | F1 0.8934±0.0071 | AUC 0.9445±0.0048
+626.1s 90 
+626.1s 91 ============================================================
+626.1s 92 DATASET: Autism_Screening
+626.1s 93 ============================================================
+626.1s 94 - Decision Tree (C4.5)
+627.9s 95 Acc 1.0000±0.0000 | F1 1.0000±0.0000 | AUC 1.0000±0.0000
+627.9s 96 - Decision Tree (CART)
+629.7s 97 Acc 1.0000±0.0000 | F1 1.0000±0.0000 | AUC 1.0000±0.0000
+629.7s 98 - SVM (Linear)
+633.0s 99 Acc 0.9948±0.0016 | F1 0.9947±0.0016 | AUC 0.9992±0.0011
+633.0s 100 - SVM (RBF Kernel)
+638.9s 101 Acc 0.9260±0.0048 | F1 0.9240±0.0051 | AUC 0.9700±0.0036
+638.9s 102 - Naive Bayes
+640.7s 103 Acc 0.2928±0.0041 | F1 0.2261±0.0077 | AUC 0.4992±0.0049
+640.7s 104 - Logistic Regression
+662.7s 105 Acc 0.9760±0.0051 | F1 0.9758±0.0052 | AUC 0.9942±0.0018
+662.7s 106 - 3-Layer NN
+706.1s 107 Acc 0.9486±0.0037 | F1 0.9487±0.0037 | AUC 0.9857±0.0026
+706.1s 108 - 3-Layer NN (L2)
+752.8s 109 Acc 0.9482±0.0034 | F1 0.9483±0.0034 | AUC 0.9859±0.0025
+752.8s 110 
+752.8s 111 ============================================================
+752.8s 112 DATASET: Student_Data
+752.8s 113 ============================================================
+752.8s 114 - Decision Tree (C4.5)
+754.6s 115 Acc 0.8306±0.0101 | F1 0.8298±0.0097 | AUC 0.8094±0.0093
+754.6s 116 - Decision Tree (CART)
+756.4s 117 Acc 0.8226±0.0101 | F1 0.8226±0.0098 | AUC 0.8029±0.0103
+756.4s 118 - SVM (Linear)
+761.9s 119 Acc 0.9242±0.0048 | F1 0.9229±0.0046 | AUC 0.9479±0.0039
+761.9s 120 - SVM (RBF Kernel)
+766.3s 121 Acc 0.8858±0.0056 | F1 0.8795±0.0058 | AUC 0.9227±0.0031
+766.3s 122 - Naive Bayes
+767.7s 123 Acc 0.8376±0.0049 | F1 0.8352±0.0044 | AUC 0.8610±0.0053
+767.7s 124 - Logistic Regression
+790.6s 125 Acc 0.9164±0.0045 | F1 0.9144±0.0047 | AUC 0.9466±0.0021
+790.6s 126 - 3-Layer NN
+876.9s 127 Acc 0.9004±0.0065 | F1 0.8989±0.0069 | AUC 0.9116±0.0057
+876.9s 128 - 3-Layer NN (L2)
+961.3s 129 Acc 0.9002±0.0075 | F1 0.8988±0.0079 | AUC 0.9116±0.0057
+961.3s 130 
+961.3s 131 Summary: Taiwan_Bankruptcy
+961.3s 132 Algorithm Average Accuracy Average F-Measure     Average AUC
+961.3s 133 3-Layer NN (L2)  0.9550 ± 0.0038   0.9465 ± 0.0042 0.8475 ± 0.0134
+961.3s 134 3-Layer NN  0.9546 ± 0.0036   0.9461 ± 0.0039 0.8463 ± 0.0135
+961.3s 135 Logistic Regression  0.9498 ± 0.0038   0.9451 ± 0.0040 0.8641 ± 0.0101
+961.3s 136 Decision Tree (C4.5)  0.9488 ± 0.0065   0.9474 ± 0.0060 0.7691 ± 0.0294
+961.3s 137 Decision Tree (CART)  0.9442 ± 0.0067   0.9430 ± 0.0068 0.7588 ± 0.0310
+961.3s 138 SVM (Linear)  0.9424 ± 0.0055   0.9404 ± 0.0053 0.8449 ± 0.0103
+961.3s 139 SVM (RBF Kernel)  0.9370 ± 0.0018   0.9093 ± 0.0024 0.9081 ± 0.0057
+961.3s 140 Naive Bayes  0.8480 ± 0.0403   0.8354 ± 0.0370 0.5791 ± 0.0144
+961.3s 141 
+961.3s 142 Summary: Breast_Cancer
+961.3s 143 Algorithm Average Accuracy Average F-Measure     Average AUC
+961.3s 144 Logistic Regression  0.9796 ± 0.0032   0.9795 ± 0.0033 0.9946 ± 0.0009
+961.3s 145 3-Layer NN  0.9760 ± 0.0038   0.9759 ± 0.0038 0.9934 ± 0.0018
+961.3s 146 SVM (Linear)  0.9756 ± 0.0012   0.9755 ± 0.0012 0.9941 ± 0.0014
+961.3s 147 3-Layer NN (L2)  0.9754 ± 0.0039   0.9753 ± 0.0039 0.9934 ± 0.0019
+961.3s 148 SVM (RBF Kernel)  0.9748 ± 0.0020   0.9747 ± 0.0021 0.9945 ± 0.0009
+961.3s 149 Naive Bayes  0.9368 ± 0.0022   0.9363 ± 0.0022 0.9869 ± 0.0010
+961.3s 150 Decision Tree (CART)  0.9252 ± 0.0109   0.9250 ± 0.0110 0.9212 ± 0.0117
+961.3s 151 Decision Tree (C4.5)  0.9246 ± 0.0064   0.9246 ± 0.0064 0.9221 ± 0.0067
+961.3s 152 
+961.3s 153 Summary: Biodegradation
+961.3s 154 Algorithm Average Accuracy Average F-Measure     Average AUC
+961.3s 155 3-Layer NN  0.8942 ± 0.0073   0.8941 ± 0.0073 0.9448 ± 0.0048
+961.3s 156 3-Layer NN (L2)  0.8936 ± 0.0070   0.8934 ± 0.0071 0.9445 ± 0.0048
+961.3s 157 SVM (Linear)  0.8820 ± 0.0073   0.8815 ± 0.0073 0.9330 ± 0.0045
+961.3s 158 Logistic Regression  0.8808 ± 0.0024   0.8801 ± 0.0025 0.9362 ± 0.0035
+961.3s 159 SVM (RBF Kernel)  0.8798 ± 0.0027   0.8796 ± 0.0028 0.9464 ± 0.0029
+961.3s 160 Decision Tree (C4.5)  0.8276 ± 0.0070   0.8266 ± 0.0070 0.8232 ± 0.0071
+961.3s 161 Decision Tree (CART)  0.8252 ± 0.0135   0.8246 ± 0.0136 0.8216 ± 0.0142
+961.3s 162 Naive Bayes  0.8184 ± 0.0039   0.8113 ± 0.0038 0.9090 ± 0.0017
+961.3s 163 
+961.3s 164 Summary: Autism_Screening
+961.3s 165 Algorithm Average Accuracy Average F-Measure     Average AUC
+961.3s 166 Decision Tree (C4.5)  1.0000 ± 0.0000   1.0000 ± 0.0000 1.0000 ± 0.0000
+961.3s 167 Decision Tree (CART)  1.0000 ± 0.0000   1.0000 ± 0.0000 1.0000 ± 0.0000
+961.3s 168 SVM (Linear)  0.9948 ± 0.0016   0.9947 ± 0.0016 0.9992 ± 0.0011
+961.3s 169 Logistic Regression  0.9760 ± 0.0051   0.9758 ± 0.0052 0.9942 ± 0.0018
+961.3s 170 3-Layer NN  0.9486 ± 0.0037   0.9487 ± 0.0037 0.9857 ± 0.0026
+961.3s 171 3-Layer NN (L2)  0.9482 ± 0.0034   0.9483 ± 0.0034 0.9859 ± 0.0025
+961.3s 172 SVM (RBF Kernel)  0.9260 ± 0.0048   0.9240 ± 0.0051 0.9700 ± 0.0036
+961.3s 173 Naive Bayes  0.2928 ± 0.0041   0.2261 ± 0.0077 0.4992 ± 0.0049
+961.3s 174 
+961.3s 175 Summary: Student_Data
+961.3s 176 Algorithm Average Accuracy Average F-Measure     Average AUC
+961.3s 177 SVM (Linear)  0.9242 ± 0.0048   0.9229 ± 0.0046 0.9479 ± 0.0039
+961.3s 178 Logistic Regression  0.9164 ± 0.0045   0.9144 ± 0.0047 0.9466 ± 0.0021
+961.3s 179 3-Layer NN  0.9004 ± 0.0065   0.8989 ± 0.0069 0.9116 ± 0.0057
+961.3s 180 3-Layer NN (L2)  0.9002 ± 0.0075   0.8988 ± 0.0079 0.9116 ± 0.0057
+961.3s 181 SVM (RBF Kernel)  0.8858 ± 0.0056   0.8795 ± 0.0058 0.9227 ± 0.0031
+961.3s 182 Naive Bayes  0.8376 ± 0.0049   0.8352 ± 0.0044 0.8610 ± 0.0053
+961.3s 183 Decision Tree (C4.5)  0.8306 ± 0.0101   0.8298 ± 0.0097 0.8094 ± 0.0093
+961.3s 184 Decision Tree (CART)  0.8226 ± 0.0101   0.8226 ± 0.0098 0.8029 ± 0.0103
+961.5s 185 Starting t-test analysis using saved grid files...
+961.5s 186 
+961.5s 187 Processing t-tests for: Taiwan_Bankruptcy
+961.5s 188 
+961.5s 189 Processing t-tests for: Breast_Cancer
+961.8s 190 
+961.8s 191 Processing t-tests for: Biodegradation
+961.8s 192 
+961.8s 193 Processing t-tests for: Autism_Screening
+962.0s 194 
+962.0s 195 Processing t-tests for: Student_Data
+962.0s 196 
+962.0s 197 Generating overall WIN-TIE-LOSS summary...
+962.0s 198 Algorithm Decision Tree (C4.5) Decision Tree (CART) SVM (Linear) SVM (RBF Kernel) Naive Bayes Logistic Regression 3-Layer NN 3-Layer NN (L2)
+962.0s 199 Decision Tree (C4.5)                    —               0-15-0       4-1-10           5-0-10       8-2-5              3-2-10     3-1-11          3-1-11
+962.0s 200 Decision Tree (CART)               0-15-0                    —       2-3-10           5-0-10       7-1-7              3-1-11     3-1-11          3-1-11
+962.0s 201 SVM (Linear)               10-1-4               10-3-2            —            8-5-2      15-0-0               5-6-4      6-5-4           6-4-5
+962.0s 202 SVM (RBF Kernel)               10-0-5               10-0-5        2-5-8                —      15-0-0              2-3-10      2-4-9           2-4-9
+962.0s 203 Naive Bayes                5-2-8                7-1-7       0-0-15           0-0-15           —              0-0-15     0-0-15          0-0-15
+962.0s 204 Logistic Regression               10-2-3               11-1-3        4-6-5           10-3-2      15-0-0                   —      8-3-4           7-4-4
+962.0s 205 3-Layer NN               11-1-3               11-1-3        4-5-6            9-4-2      15-0-0               4-3-8          —          0-14-1
+962.0s 206 3-Layer NN (L2)               11-1-3               11-1-3        5-4-6            9-4-2      15-0-0               4-4-7     1-14-0               —
+962.0s 207 
+962.0s 208 Done. All CSV outputs are saved in the working directory.
+965.5s 209 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["remove_papermill_header.RemovePapermillHeader"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+965.5s 210 warn(
+965.5s 211 [NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+965.9s 212 [NbConvertApp] Writing 37076 bytes to __notebook__.ipynb
+967.7s 213 /usr/local/lib/python3.11/dist-packages/traitlets/traitlets.py:2915: FutureWarning: --Exporter.preprocessors=["nbconvert.preprocessors.ExtractOutputPreprocessor"] for containers is deprecated in traitlets 5.0. You can pass `--Exporter.preprocessors item` ... multiple times to add items to a list.
+967.7s 214 warn(
+967.7s 215 [NbConvertApp] Converting notebook __notebook__.ipynb to html
+968.8s 216 [NbConvertApp] Writing 367613 bytes to __results__.html
